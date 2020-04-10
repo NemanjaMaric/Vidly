@@ -247,6 +247,10 @@
     <Compile Include="Migrations\202004091359047_NameOfMembershipType.Designer.cs">
       <DependentUpon>202004091359047_NameOfMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004101838475_SeedUsers.cs" />
+    <Compile Include="Migrations\202004101838475_SeedUsers.Designer.cs">
+      <DependentUpon>202004101838475_SeedUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -324,6 +328,8 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\New.cshtml" />
+    <Content Include="Views\Movies\ReadOnlyList.cshtml" />
+    <Content Include="Views\Movies\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -362,6 +368,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004091359047_NameOfMembershipType.resx">
       <DependentUpon>202004091359047_NameOfMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004101838475_SeedUsers.resx">
+      <DependentUpon>202004101838475_SeedUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
